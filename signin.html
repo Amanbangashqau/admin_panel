@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .login-container {
+        max-width: 400px;
+        margin: 100px auto;
+        background-color: #000;
+        /* Set the background color to black */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        /* Set text color to white */
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .flex-container {
+        display: flex;
+        align-items: center; /* Optional: Align items vertically in the center */
+      }
+
+      .justify-content-between {
+        justify-content: space-between;
+      }
+
+      .rounded {
+        border-radius: 20px; 
+        /* You can adjust the value for the desired level of rounding */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <h2 class="text-start">Welcome Back!</h2>
+        <p>Use the form below to access your account</p>
+        <form onsubmit="return redirectToDashboard()">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              placeholder="Enter your username"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div class="flex-container justify-content-between">
+            <p>Forget Password?</p>
+            <button type="submit" class="btn btn-primary rounded"> <!-- Added 'rounded' class here -->
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      function redirectToDashboard() {
+        // You can add your authentication logic here
+        // For simplicity, I'm redirecting to a "dashboard" page
+        window.location.href = "index.html";
+        return false; // Prevent the form from submitting
+      }
+    </script>
+  </body>
+</html>
