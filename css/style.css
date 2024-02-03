@@ -2,6 +2,10 @@
 .sidebar-brand img{
     height: 80px;
 }
+/* container */
+.container-fluid{
+  background: #121926;
+}
 
 /* sidebar box user */
 .box-user{
@@ -30,8 +34,8 @@
     margin-top: 200px;
   }
   .progress {
-    width: 150px;
-    height: 150px !important;
+    width: 130px;
+    height: 130px !important;
     float: left; 
     line-height: 150px;
     background: none;
@@ -167,34 +171,254 @@
   .table{
     margin-top: 3%;
     background: #0e121d;
+    border-radius: 1%;
   } 
-  /* string css page */
-  .content{
+  /* my team section */
+  .my-team{
     background: #0e121d;
   }
-  .info-box-number{
-    color: white;
+  .my-team h5{
+    font-size: 50%;
+  }
+  /* menage page start*/
+  .content{
+    background: #0d121d;
   }
   .form-select{
-  padding-right: 2rem;
-  width:100%;
-  border-radius: 2.5px;
-  background: #454d55;
-  color: white;
-}
+    background:rgb(18, 33, 48) ;
+    border-radius: 5px;
+    
+  }
+  .custom-select{
+    color: black;
+  }
   .btn-add{
-    border: 2px solid #0e121d;
-    color: white;
-     background-color: #6536c2;
-  }
-  .string-table{
+    background: #6536c2;
     color: white;
   }
+  .table {
+    color: white;
+  }
+  /* string css page */
+  
+ .string-box{
+  display: flex;
+   flex-direction: column;
+  align-items: flex-start;
+    width: 70%; 
+   padding: 20px;
+   margin: 16px;
+   background-color: rgb(13, 18, 29);
+   color: white; border-radius: 15px;
+ }
+/* string 2box */
+.string-boxb{
+  display: flex;
+   flex-direction: column;
+   width: 70%;
+   padding: 20px;
+   margin: 16px;
+   background-color: rgb(13, 18, 29);
+   color: white;
+   border-radius: 15px;
+   
+}
+.form-control{
+  background-color: rgb(13, 18, 29);
+   color: white;
+    border: 1px solid gray;
+     width: 100%;
+}
+/* 3rd section */
+.string-boxc{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+  margin: 16px;
+  background-color: rgb(13, 18, 29);
+  color: white; border-radius: 15px;
+}
   /* string css end */
-  /* menage page css  */
- 
+  /* changelog section */
+  .Changelog{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+     width: 97%; 
+    padding: 20px;
+    margin: 16px;
+    background-color: rgb(13, 18, 29);
+    color: white; border-radius: 15px;
+  }
+  /* changelog box1 */
+  .changelog-men{
+    display: flex;
+  }
+  
+  .changelog-box1{
+    display: flex; 
+    flex-grow: 3; 
+    flex-direction: column; 
+    width: 20%; 
+    padding: 20px; 
+    margin: 16px; 
+    background-color: rgb(13, 18, 29);
+     color: white; 
+     border-radius: 15px;
+  }
+  /* changloge box3 */
+  .changelog-box3{
+     display: flex;
+     flex-grow: 3;
+     flex-direction: column;
+     width: 97%;
+     padding: 20px;
+     margin: 16px; 
+     background-color: rgb(13, 18, 29); 
+     color: white; 
+     border-radius: 15px;
+  }
+  .copy-button{
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+  .changelog-box3-1{
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 16px;
+  }
+  /* end changelog */
+  /* profile section box */
+   .profile-box1{
+    margin-left: 30px;
+    width: 96%;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 16px; 
+    background-color: rgb(13, 18, 29); 
+    border-top-left-radius: 15px; 
+    border-top-right-radius: 15px;
+   }
+   .profile-box2{
+    width: 96%;
+    margin-left: 30px;
+    background-color: rgb(13, 18, 29); 
+   }
+ .copy-btn{
+  border: 2px solid white; 
+  background: #0d121d; 
+  width: 95%; 
+  margin-left: 20px;
+  border-radius: 4px;
+ }
 
-  /* end page */
+  /* end page profile */
+  /* secan section start */
+  .secan-section{
+    display: flex;
+     flex-grow: 3; 
+     flex-direction: column; 
+     width: 100%; 
+     height: 90%;
+     padding: 20px; 
+     margin: 16px; 
+     background-color: rgb(13, 18, 29);
+     color: white; 
+     border-radius: 15px;
+  }
+  .secan-box1{
+    display: flex; 
+    justify-content: space-between;
+  }
+  .secan-box2{
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 16px;
+  }
+  .secan-box2 svg{
+    color: white;
+  }
+.secan-section-1{
+  border: 1px solid #4caf50; 
+  width: 50px;
+}
+
+  .secan-icon-box1 i{
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  .secan-section-2{
+    border:1px solid #03a9f4;
+    width: 50px;
+  }
+  .secan-icon-box2 i{
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  .secan-section-3{
+    border: 1px solid #ff9800;
+    width: 50px;
+  }
+  .secan-icon-box3 i{
+    margin-left: 12px;
+    margin-top: 10px;
+  }
+  /*  */
+  .secan-section-box1{
+    height: 90%;
+    display: flex; 
+    flex-grow: 3; 
+    flex-direction: column; 
+    width: 100%; 
+    padding: 20px; 
+    margin: 16px; 
+    background-color: rgb(13, 18, 29); 
+    color: white; 
+    border-radius: 15px;
+  }
+  /*  */
+  .secan-section-box2{
+    height: 90%;
+    display: flex; 
+    flex-grow: 3; 
+    flex-direction: column; 
+    width: 100%; 
+    padding: 20px; 
+    margin: 16px;
+    background-color: rgb(13, 18, 29); 
+    color: white; 
+    border-radius: 15px;
+  }
+  /*  */
+  .secan-section-box3{
+    height: 90%;
+    display: flex; 
+    flex-grow: 3; 
+    flex-direction: column; 
+    width: 100%; 
+    padding: 20px; 
+    margin: 16px; 
+    background-color: rgb(13, 18, 29); 
+    color: white; 
+    border-radius: 15px;
+  }
+  /* section 3 */
+  .secan-section3{
+    
+    display: flex; 
+    flex-grow: 3; 
+    flex-direction: column; 
+    width: 98%; 
+    padding: 20px; 
+    margin: 16px; 
+    background-color: rgb(13, 18, 29); 
+    color: white; 
+    border-radius: 15px;
+  }
+ 
+  /* end secan section */
   /* purchese css page */
   .purchese-table{
     color: white;

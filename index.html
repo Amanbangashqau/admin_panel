@@ -66,7 +66,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="Scan.html">
             <i class="fa fa-users"></i>
             <span>Scan</span>
           </a>
@@ -78,7 +78,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="Changelog.html">
             <i class="fas fa-fw fa-trash-alt"></i>
             <span>Changelog</span>
           </a>
@@ -262,7 +262,7 @@
             <div
               class="d-sm-flex align-items-center justify-content-between mb-4"
             >
-              <h1 class="h3 mb-0 text-white-800">Dashbord</h1>
+              <h1 class="h3 mb-0 text-white">Dashbord</h1>
               <!-- <a
                 href="#"
                 class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
@@ -270,15 +270,17 @@
                 Report</a
               > -->
             </div>
-
+            </div>
+            <div class="container-fluid">
             <!-- Content Row -->
-            <div class="row">
+            <div class="row ">
               <!-- Earnings (Monthly) Card Example -->
              
-              <div class="col-md-8 col-lg-8 col-xl-8 col-sm-4 color">
+              <div class="col-md-6 col-lg-6 col-xl-6  color mt-3">
+               
                 <p class="mt-4"> Scan Summery</p>
                 <p>An Overview of your scan</p>
-                <div class="progress blue ml-5">
+                <div class="progress blue ">
                     <span class="progress-left">
                         <span class="progress-bar"></span>
                     </span>
@@ -288,7 +290,7 @@
                     <div class="progress-value">90%</div>
                 </div>
             
-                <div class="progress yellow ml-5">
+                <div class="progress yellow ">
                     <span class="progress-left">
                         <span class="progress-bar"></span>
                     </span>
@@ -297,7 +299,7 @@
                     </span>
                     <div class="progress-value">37.5%</div>
                 </div>
-                <div class="progress green ml-5">
+                <div class="progress green ">
                     <span class="progress-left">
                         <span class="progress-bar"></span>
                     </span>
@@ -309,11 +311,12 @@
             </div>
             
               
+              
 
               <!-- Earnings (Monthly) Card Example -->
              
                 
-                    <div class="col-lg-4 col-xl-4 col-md-4 col-sm-4 mt-3 ">
+                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-4 mt-3 ">
                         <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
                             <div class="text-container">
                                 <h2>Welcome Back Alex!</h2>
@@ -324,9 +327,20 @@
                   <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
                     <div class="text-container-container">
                         <h2>Total Scan Count</h2>
-                        <p>Get Overview of your scan</p>
+                      <div class="" style="display: flex;">
+                        <p style="display: flex;">Get Overview of your scan </p>
+                        <p class="ml-3 text-primary">Active</p>
+                      </div>
+                      <span style="display: flex;">
+                         <i class="fa fa-user ml-3"></i>
+                        <p class="text-white ml-3">82.138</p>
+                      </span>
+                      
+                        
+                        
                       </div>
                   </div>
+                </div>
                 </div>
             </div>
 
@@ -335,55 +349,67 @@
             
           </div>
           <!-- /.container-fluid end -->
-          <div class="container-fluid">
-          <div class="row mt-5">
-            <div class="col-xl-12 col-lg-12">
-              <table class="table">
-               
-                  <thead>
-                    <tr>
-                      <th scope="col">Member Name</th>
-                      <th scope="col">Email</th>
-                      <th scope="col">Last Active</th>
-                      <th scope="col">Date Create</th>
-                      <th scope="col">Status</th>
-                    </tr>
-                  </thead>
+          <div class="container-fluid ">
+          <div class="row mt-5" >
+            <div class="col-xl-12 col-lg-12 col-md-12 my-team">
+              <h3 class="text-white mt-4">My Team</h3>
+              
+              <table class="table" >
+                  
+                  <tr>
+                <th scope="col">Member Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Last Active</th>
+                <th scope="col">Date Create</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">John Doe</th>
-                      <td>JohnDoeExample.com</td>
-                      <td>	2022-01-01</td>
-                      <td>2021-12-01</td>
-                      <td>Active</td>
+                     
+                      <th scope="row" class="text-white">
+                        <span class="mr-3"> <i class="fa fa-user"></i></span>
+                        John Doe</th>
+                      <td class="text-white">JohnDoeExample.com</td>
+                      <td class="text-white">	2022-01-01</td>
+                      <td class="text-white">2021-12-01</td>
+                      <td class="text-danger">Active</td>
                     </tr>
                     <tr>
-                      <th scope="row">Jane Smith</th>
-                      <td>jane@example.com</td>
-                      <td>2022-02-15</td>
-                      <td>2021-11-15</td>
-                      <td>Active</td>
+                      <th scope="row" class="text-white">
+                        <span class="mr-3"> <i class="fa fa-user"></i></span>
+                        Jane Smith</th>
+                      <td class="text-white">jane@example.com</td>
+                      <td class="text-white">2022-02-15</td>
+                      <td class="text-white">2021-11-15</td>
+                      <td class="text-danger">Active</td>
                     </tr>
                     <tr>
-                      <th scope="row">Bob Johnson</th>
-                      <td >bob@example.com</td>
-                      <td>2022-03-20</td>
-                      <td>	2022-01-20</td>
-                      <td>Active</td>
+                      <th scope="row" class="text-white">
+                        <span class="mr-3"> <i class="fa fa-user"></i></span>
+                        Bob Johnson</th>
+                      <td class="text-white">bob@example.com</td>
+                      <td class="text-white">2022-03-20</td>
+                      <td class="text-white">	2022-01-20</td>
+                      <td class="text-danger">Active</td>
                     </tr>
                     <tr>
-                        <th scope="row">Alice Brown</th>
-                        <td >alice@example.com</td>
-                        <td>2022-04-10</td>
-                        <td>2021-10-10</td>
-                        <td>Active</td>
+                        <th scope="row" class="text-white">
+                          <span class="mr-3"> <i class="fa fa-user"></i></span>
+                          Alice Brown</th>
+                        <td class="text-white" >alice@example.com</td>
+                        <td class="text-white">2022-04-10</td>
+                        <td class="text-white">2021-10-10</td>
+                        <td class="text-danger">Active</td>
                       </tr>
                       <tr>
-                        <th scope="row">Charlie Wilson</th>
-                        <td >charlie@example.com</td>
-                        <td>2022-05-05</td>
-                        <td>2022-02-05</td>
-                        <td>Active</td>
+                        <th scope="row" class="text-white">
+                          <span class="mr-3"> <i class="fa fa-user"></i></span>
+                          Charlie Wilson</th>
+                        <td class="text-white">charlie@example.com</td>
+                        <td class="text-white">2022-05-05</td>
+                        <td class="text-white">2022-02-05</td>
+                        <td class="text-danger">Active</td>
                       </tr>
                       
                   </tbody>
@@ -391,6 +417,7 @@
             </div>
             
           </div>
+        </div>
         </div>
           <!--end table container  -->
           
